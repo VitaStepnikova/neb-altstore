@@ -1,0 +1,46 @@
+{
+  "name": "NEB Network AR",
+  "identifier": "de.hs-anhalt.nna.source",
+  "subtitle": "AR experiences by Hochschule Anhalt",
+  "description": "Official AltStore source for NEB Network AR (Hochschule Anhalt).",
+  "iconURL": "https://vitastepnikova.github.io/neb-altstore/icon.png",
+  "website": "https://the.neb-network.app",
+  "tintColor": "#1E88E5",
+  "apps": [
+    {
+      "name": "NEB Network AR",
+      "bundleIdentifier": "de.hs-anhalt.nna.webxr",
+      "developerName": "Hochschule Anhalt",
+      "subtitle": "Augmented reality portals",
+      "localizedDescription": "NEB Network AR opens augmented reality experiences: scan a printed QR marker to see dreams and portals placed in the real world around you.",
+      "iconURL": "https://vitastepnikova.github.io/neb-altstore/icon.png",
+      "tintColor": "#1E88E5",
+      "category": "education",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.0",
+          "buildVersion": "3",
+          "date": "2026-10-14",
+          "localizedDescription": "First release on AltStore.",
+          "downloadURL": "https://github.com/VitaStepnikova/neb-altstore/releases/download/v1.0-3/NEB-Network-AR-1.0-3.ipa",
+          "size": 4771249,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.associated-appclip-app-identifiers"
+        ],
+        "privacy": {
+          "NSCameraUsageDescription": "The camera is used for augmented reality: tracking your surroundings and recognising printed markers.",
+          "NSLocalNetworkUsageDescription": "Opens AR experiences served from computers on your local network during development.",
+          "NSLocationWhenInUseUsageDescription": "Your location lets an experience show places near you on its map.",
+          "NSMicrophoneUsageDescription": "The microphone is used when an experience asks to record your voice, for example to leave a voice comment."
+        }
+      }
+    }
+  ],
+  "news": []
+}
